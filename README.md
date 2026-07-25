@@ -59,6 +59,7 @@ Ensure you have [Docker](https://www.docker.com/products/docker-desktop/) instal
 ```bash
 git clone [https://github.com/kavinkumar2509/Browser-Based-Digital-Forensics-Artifact-Workbench-.git](https://github.com/kavinkumar2509/Browser-Based-Digital-Forensics-Artifact-Workbench-.git)
 cd Browser-Based-Digital-Forensics-Artifact-Workbench-
+follow the local link to view http://localhost:8081/
 
 ---
 
