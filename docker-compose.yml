@@ -1,0 +1,10 @@
+services:
+  pwndora-workbench:
+    container_name: bbdfaw_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bbdfaw:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped

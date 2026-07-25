@@ -1,0 +1,42 @@
+export const UImockData = [
+  {
+    id: 1,
+    time: "09:15 AM",
+    event: "PowerShell Execution",
+    file: "powershell.exe",
+    path: "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    risk: "High",
+  },
+  {
+    id: 2,
+    time: "09:18 AM",
+    event: "Hidden Shortcut",
+    file: "invoice.lnk",
+    path: "C:\\Users\\Admin\\AppData\\Roaming",
+    risk: "High",
+  },
+  {
+    id: 3,
+    time: "09:22 AM",
+    event: "Chrome Login",
+    file: "chrome.exe",
+    path: "C:\\Program Files\\Google\\Chrome",
+    risk: "Low",
+  },
+  {
+    id: 4,
+    time: "09:30 AM",
+    event: "Registry Modified",
+    file: "regedit.exe",
+    path: "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    risk: "Medium",
+  },
+  {
+    id: 5,
+    time: "09:45 AM",
+    event: "Suspicious DLL Loaded",
+    file: "malware.dll",
+    path: "C:\\Users\\Admin\\AppData\\Local\\Temp",
+    risk: "High",
+  },
+];
