@@ -1,4 +1,4 @@
-# 🛡️ PWNDORA: Browser-Native Digital Forensics Workbench
+# T-04 BSCDS26-DILE-01  PWNDORA: Browser-Native Digital Forensics Workbench
 **Track:** T-04 DILE — DFIR Innovation Lab Extension  
 **Problem Statement ID:** BSCDS26-DILE-01  
 
@@ -44,6 +44,21 @@ To evaluate the complete end-to-end prototype, please follow this triage workflo
 2. **Stress Test:** Drag and drop any synthetic `.lnk`, `.evtx`, `.pf`, or `.dat` file into the drop zone. Alternatively, click the **"Generate & Test 5MB Mock Artifact"** button to witness high-volume memory parsing without UI freezing.
 3. **Analyze Timeline:** You will be automatically redirected to the **Timeline Analysis** page. Observe the parsed binary strings, timestamp extraction, and the dynamic **Heuristic Threat Score** badges (Critical/High/Low) assigned to the data.
 4. **Export Documentation:** Navigate to the **Report** tab. Read the embedded *Operation Midnight* scenario briefing and click **Download CSV** or **Download JSON** to export the structured findings directly to your local disk.
+# 🔍 PWNDORA DFIR WORKBENCH
+
+An enterprise-grade, browser-based Digital Forensics and Incident Response (DFIR) workbench. Engineered for high-performance, zero-trust telemetry parsing completely on the client side.
+
+## 🚀 Quick Start for Judges (Docker Deployment)
+
+This application is fully containerized for a zero-dependency evaluation. You do not need to install Node.js, `npm`, or download any packages. 
+
+**Prerequisites:** 
+Ensure you have [Docker](https://www.docker.com/products/docker-desktop/) installed and running on your machine.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/kavinkumar2509/Browser-Based-Digital-Forensics-Artifact-Workbench-.git](https://github.com/kavinkumar2509/Browser-Based-Digital-Forensics-Artifact-Workbench-.git)
+cd Browser-Based-Digital-Forensics-Artifact-Workbench-
 
 ---
 
